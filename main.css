@@ -1,0 +1,263 @@
+#SectionA{
+    height: 500px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+body{
+    font-family: sans-serif;
+}
+a:hover{
+    background-color: red;
+}
+a::selection{
+    color: red;
+}
+.navbar{
+    padding-bottom: 60px;
+}
+.navbar a{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+    align-items: center;
+    margin:8px;
+}
+.navbar a:hover{
+    color: red;
+}
+.flex-container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.flex1{
+    border-style:groove;
+    border-style: groove;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+}
+.line{
+    border-bottom-style: groove;
+    border-width: thin; 
+    width: 42px;
+    margin-left: 49%;
+    border-color: red;
+    margin-top: -17px;
+    margin-bottom: 25px;
+
+}
+.sectionC{
+    display: flex;
+    margin-top: 60px;
+    padding-top: 40px;
+    background: aliceblue;
+}
+.checked {
+    color: red;
+}
+.circle:checked{
+    background-color: white;
+}
+.Content{
+    margin-left: 50px;
+    
+}
+.Content h1{
+    font-size: 30px;
+}
+.Content p{
+    line-height: 20px;
+}
+.SectionB{
+    padding-top: 20px;
+    padding-left: 20px;         
+}
+.middle{
+    width: 35%;
+    position: relative;
+    right: 70px;
+}
+#download{
+    height: 39px;
+    width: 160px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+}
+.middle{
+    margin-top: 50px;
+}
+.sectionD{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#learn{
+    height: 39px;
+    width: 145px;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    border-style: groove;
+    border-color: red;
+    margin-left: 15px;
+}
+.services{
+    border-bottom-style: solid;
+    border-color: red;
+}
+#read{
+    width: 125px;
+    height: 42px;
+    border-radius: 25px;
+    color: white;
+    background-color: red;
+    border-style: hidden;
+}
+.content-container{
+    display: flex;
+    border-style: groove;
+    border-radius: 10px;
+    width: 364px;
+    margin-bottom: 10px;
+}
+.content-container h4{
+    font-size: 19px;
+}
+.content1{
+    direction: rtl;
+}
+.contentImg{
+    padding-top: 25px;
+    padding-left: 20px;
+    margin-right: 18px;
+}
+.team-container{
+    width: 40%;
+    background-color: white;
+    height: 145px;
+    margin-left: 14px;
+}
+.team{
+    float: right;
+    width: 56%;
+    margin-top: -20px;
+    margin-right: 34px;
+}
+.team p{
+    margin-top: -16px;
+}
+.icons{
+    margin-top: -10px;
+}
+.icons img{
+    margin-right: 10px;
+}
+.sectionE{
+    background: ghostwhite;
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 450px;
+}
+.Pricing{
+    width: 22%;
+    text-align: center;
+    margin-left: 20px;
+    box-shadow: 0px 1px 4px -1px;
+    background-color: white;
+}
+.Pricing img{
+    padding-top: 20px;
+}
+.Pricing h1{
+    margin-top: 0px;
+    font-size: x-large;
+}
+.Pricing p{
+    line-height: 27px;
+}
+#buy{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background: red;
+    border-style: hidden;
+    color: white;
+    margin-bottom: 20px;
+}
+.sectionF{
+    background-color: red;
+    margin-top: 35px;
+    height: 400px;
+}
+.testimonies{
+    text-align: center;
+    width: 30%;
+    background: white;
+    padding-top: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding-bottom: 25px;
+}
+.trial{
+    width: 40%;
+    padding-right: 250px;
+    padding-left: 50px;
+}
+
+.input{
+    height: 30px;
+    margin-right: 20px;
+    width: 300px;
+    border-style: hidden;
+    padding-left: 10px;
+}
+.subject{
+    height: 30px;
+    width: 643px;
+    margin-bottom: 15px;
+    border-style: hidden;
+}
+.message{
+    height: 30px;
+    width: 643px;
+    margin-bottom: 15px;
+    border-style: hidden;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+#footer{
+    padding-left: 45px;
+    padding-top: 35px;
+    padding-right: 55px;
+}
+#fab{
+    margin-right: 20px;
+}
+li p{
+    margin-left: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.phone{
+    position: relative;
+    bottom: 38px;
+}
+.email{
+    position: relative;
+    bottom: 62px;
+}
+.ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+}
