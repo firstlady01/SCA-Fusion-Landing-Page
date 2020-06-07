@@ -15,6 +15,9 @@ a::selection{
 .navbar{
     padding-bottom: 60px;
 }
+.margin{
+    margin-left: 100px;
+}
 .navbar a{
     text-decoration: none;
     -webkit-text-fill-color: black;
@@ -146,7 +149,8 @@ a::selection{
 .team{
     float: right;
     width: 56%;
-    margin-top: -20px;
+    position: relative;
+    bottom: 9px;
     margin-right: 34px;
 }
 .team p{
@@ -240,6 +244,11 @@ a::selection{
     padding-top: 35px;
     padding-right: 55px;
 }
+#sectionF{
+    display: flex;
+    margin-left: 89px;
+    padding-top: 25px;
+}
 #fab{
     margin-right: 20px;
 }
@@ -260,4 +269,24 @@ li p{
     list-style: none;
     position: relative;
     right: 40px;
+}
+@media only screen and (max-width:380px){
+    .margin{
+        margin-left: 320px;
+    }
+    .Content2{
+        width: 61%;
+    }
+    .flex1{
+        width: 258px;
+    }
+    .team{
+        margin-right: 0px;
+        bottom: 18px;
+    }
+    #buy{    width: 125px;}
+    #sectionF{    margin-left: 36px;}
+    .testimonies p{
+        padding: 10px;
+    }
 }
